@@ -89,7 +89,51 @@ body{
     display: flex;
     flex-direction: column;
     margin: 40px auto;
+    padding-left: 20px;
+    box-sizing: border-box;
 }
+.name input{
+    width: 200px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0.5px solid #AEAEAE;
+    margin-top: 16px;
+}
+.box{
+    width: 200px;
+    height: 48px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
+}
+.adress{
+    width: 408px;
+    height: 48px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
+    margin-left: 4px;
+}
+.adress2{
+    width: 408px;
+    height: 48px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
+}
+.id-info input {
+    margin-top: 16px;
+}
+.name h3{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.content3 input{
+    font-size: 14px;
+    font-weight: 400;
+}
+.content3 button{
+    margin-top: 35px;
+}
+
 
 
 
