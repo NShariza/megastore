@@ -134,6 +134,56 @@ body{
     margin-top: 35px;
 }
 
+.content4{
+    width: 668px;
+    height: 608px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.content4 input{
+    /*width: auto;*/
+    height: 48px;
+    margin: 8px;
+    font-size: 14px;
+}
+.content4 h3{
+    margin-top: 40px;
+    margin-left: 8px;
+}
+.content4 button{
+    margin-top: 25px;
+}
 
-
-
+.product{
+    width: 633px;
+    height: 48px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
+}
+.product1{
+    width: 408px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0.5px solid #aeaeae;
+}
+.product2{
+    width: 198px;
+    border-radius: 8px;
+    border: 0.5px solid #aeaeae;
+}
+.salary{
+    width: 304px;
+    height: 48px;
+    border-radius: 8px;
+    border: 0.5px solid #aeaeae;
+}
+.product3{
+    width: 194px;
+    border-radius: 8px;
+    border: 0.5px solid #aeaeae;
+}
