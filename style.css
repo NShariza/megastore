@@ -1,46 +1,32 @@
-body{
-    background-color: black;
-}
-
 .content{
-    width: 640px;
-    height: 264px;
-    border: 2px solid black;
-    border-radius: 4px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    margin: 180px auto;
-    justify-content: center;
-}
-.content h3{
-    text-align: center;
-    font-size: 16px;
-    font-weight: 600;
+    display: inline-block;
+    margin-top: 204px;
+    margin-left: 8px;
 }
 .number{
-    margin-left: 8px;
-    margin-bottom: 8px;
-    padding: 0 5px;
     font-size: 14px;
     color: black;
 }
 .number input{
-    width: 608px;
+    width: 328px;
     height: 48px;
-    border: 0.5px solid #DADADA;
     font-size: 14px;
+    border: 0.5px solid #dadada;
+    border-radius: 4px;
+    padding: 0;
 }
 .next{
-    width: 384px;
+    width: 328px;
     height: 48px;
     margin: 5px auto;
-    border: 1px solid transparent;
+    border: 0.5px solid transparent;
     border-radius: 4px;
     background-color: #232529;
     color: white;
     font-size: 20px;
     text-align: center;
+    padding: 0;
+    margin-top: 24px;
 }
 .next a{
     text-decoration: none;
