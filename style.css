@@ -193,12 +193,28 @@ body{
 }
 .content5{
     width: 640px;
-    height: 264px;
+    height: 328px;
     border: 2px solid black;
     border-radius: 4px;
     background-color: white;
     display: flex;
     flex-direction: column;
     margin: 180px auto;
-    justify-content: center;
+    text-align: center;
+}
+.content5 h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.content5 p{
+    font-size: 14px;
+    color: #A9A9A9;
+    margin: 0;
+}
+.content5 img{
+    margin-top: 16px;
+}
+.content5 button{
+    margin-top: 32px;
 }
