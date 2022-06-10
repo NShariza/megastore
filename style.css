@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 .content{
     display: inline-block;
     margin-top: 204px;
@@ -106,27 +107,46 @@
 }
 
 .content4{
-    width: 668px;
-    height: 608px;
+    width: 360px;
+    height: 1335px;
     border-radius: 4px;
-    background-color: black;
+    background-color: white;
     display: flex;
     flex-direction: column;
     margin: 25px auto;
-    padding-left: 5px;
+    padding-left: 15px;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 .content4 input{
+    width: 328px;
     height: 48px;
-    margin: 8px;
     font-size: 14px;
+    border: 0.5px solid #aeaeae;
+    border-radius: 8px;
 }
 .content4 h3{
     margin-top: 40px;
-    margin-left: 8px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.content4 span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+.pass{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.pass1{
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 .content4 button{
     margin-top: 25px;
+    margin-right: 14px;
 }
 
 .product{
