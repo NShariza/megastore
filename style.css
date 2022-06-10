@@ -148,16 +148,18 @@
     margin-top: 25px;
     margin-right: 14px;
 }
-
+body{
+    background-color: #929292;
+}
 .content5{
-    width: 640px;
+    width: 328px;
     height: 328px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 4px;
-    background-color: black;
+    background-color: white;
     display: flex;
+    margin: 250px auto;
     flex-direction: column;
-    margin: 180px;
     text-align: center;
 }
 .content5 h3{
@@ -175,4 +177,6 @@
 }
 .content5 button{
     margin-top: 32px;
+    width: 296px;
+    height: 48px;
 }
